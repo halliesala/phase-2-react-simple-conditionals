@@ -4,9 +4,9 @@ This app is mega broken. First, fix all the errors so that your console is clear
 
 ## Getting Started
 
-Fork and clone the repository and then run `npm install` followed by `npm run server` and `npm start`.
+Fork and clone the repository and then run `npm install` followed by `npm start`.
 
-You'll be able to fetch to `http://localhost:4001/planets`.
+Familiarize yourself with the app. You're getting an array of planet data from `src/data/planets.js` which you'll use throughout.
 
 ## Deliverable One
 

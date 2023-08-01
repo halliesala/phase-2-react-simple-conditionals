@@ -1,17 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import StarField from '../visual-effects/StarField'
-import PlanetsContainer from "./PlanetsContainer"
+import PlanetsContainer from './PlanetsContainer'
+import planets from '../data/planets'
 
 function App() {
-
-  const [planets, setPlanets] = useState('')
-
-  useEffect(() => {
-    console.log('fetching planets...')
-    fetch('http://localhost:4001/planets')
-    .then(res => res.json())
-    .then(data => setPlanets(data))
-  })
 
   return (
     <div className="App">
